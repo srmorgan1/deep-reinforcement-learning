@@ -24,6 +24,9 @@ The task is episodic, and in order to solve the environment, the RL agent must g
 
 ### Getting Started
 
+The Jupyter notebook is set up to work in the online Udacity environment, where it will install vaarious required python packages and
+download the Unity environment. However, if you want to work on a different machine you will need to follow the steps below.
+
 1. Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
@@ -34,7 +37,6 @@ The task is episodic, and in order to solve the environment, the RL agent must g
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-   The Jupyter notebook is set up to work on the Udacity environment, install vaarious required python packages and download the
 2. Place the downloaded Unity Environment file into the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
 ### Instructions
