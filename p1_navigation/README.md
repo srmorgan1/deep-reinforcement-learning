@@ -24,7 +24,7 @@ The task is episodic, and in order to solve the environment, the RL agent must g
 
 ### Getting Started
 
-The Jupyter notebook is set up to work in the online Udacity environment, where it will install vaarious required python packages and
+The Jupyter notebook is set up to work in the online Udacity environment, where it will install various required python packages and
 download the Unity environment. However, if you want to work on a different machine you will need to follow the steps below.
 
 1. Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system:
