@@ -2,8 +2,8 @@
 
 ## Introduction 
 
-In this report we present a Deep Reinforcement Learning (RL) agent solving a variation of the [Unity Banana Collector](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector) task. In this task, an agent must navigate a planar environment, collecting yellow bananas whilst
-avoiding blue bananas.
+In this report we present a Deep Reinforcement Learning (RL) agent solving a variation of the [Unity Banana Collector](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector) task.
+In this task, an agent must navigate a planar environment, collecting yellow bananas whilst avoiding blue bananas.
 
 The agent is coded in Python using the Torch RL framework, and the code is contained in the same directory
 as this report. To run it, follow the instructions in [README.md](https://github.com/srmorgan1/deep-reinforcement-learning/blob/master/p1_navigation/README.md)
@@ -30,7 +30,7 @@ The Deep Q-Learning algorithm represents the optimal action-value function as a 
 
 ### Learning Algorithm
 
-THE Deep Q Network (DQN) learning algorithm used to solve the yellow banana collection task uses the deep
+The Deep Q Network (DQN) learning algorithm used to solve the yellow banana collection task uses the deep
 neural network described above along with the following features:
 
 + Fixed-Q targets: Instead of a single deep neural network (DNN), we use two identical DNNs, the primary and target networks.
@@ -47,9 +47,9 @@ neural network described above along with the following features:
 
 The hyper-parameters from the DQN Lunar lander lesson were used without changes:
 
++ Learning rate 0.0005
 + Decay factor (gamma) 0.99
 + The network was trained using a batch size of 64 samples
-+ Learning rate 0.0005
 + Epsilon starting value of 1, epsilon decay of 0.995, and the minimum possible epsilon value was set to 0.01.
 
 The target network was updated every four steps.
